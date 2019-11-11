@@ -9,7 +9,6 @@ let resetBtn = document.getElementById("reset");
 let timerElement = document.getElementById("timer");
 
 
-
 startBtn.addEventListener("click", function() {
     timer = setInterval(TimerHandler, 1000);
     resetBtn.disabled = true;
@@ -29,7 +28,6 @@ resetBtn.addEventListener("click", function() {
     timerElement.innerHTML = "00:00:00";
 
 });
-
 
 
 function TimerHandler() {
