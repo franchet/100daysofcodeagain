@@ -1,0 +1,97 @@
+{
+    "questions": [{
+            "id": "0",
+            "title": "Inside which HTML element do we put the JavaScript?",
+            "answers": [{
+                    "id": "0",
+                    "answer": "<script>"
+                },
+                {
+                    "id": "1",
+                    "answer": "<scripting>"
+                },
+                {
+                    "id": "2",
+                    "answer": "<Js>"
+                },
+                {
+                    "id": "3",
+                    "answer": "<JavaScript>"
+                }
+            ],
+            "correct": "0"
+        },
+        {
+            "id": "1",
+            "title": "Which of the following variables cannot be changed?",
+            "answers": [{
+                    "id": "0",
+                    "answer": "var"
+                },
+                {
+                    "id": "1",
+                    "answer": "let"
+                },
+                {
+                    "id": "2",
+                    "answer": "const"
+                }
+            ],
+            "correct": "2"
+        },
+        {
+            "id": "3",
+            "title": "Which of the following is the correct way to add a new item to an array?",
+            "answers": [{
+                    "id": "0",
+                    "answer": "array.add(\"item\");"
+                },
+                {
+                    "id": "1",
+                    "answer": "array.push(\"item\");"
+                },
+                {
+                    "id": "2",
+                    "answer": "add(array, \"item\");"
+                }
+            ],
+            "correct": "1"
+        },
+        {
+            "id": "4",
+            "title": "Where is the correct place to insert JavaScript? code",
+            "answers": [{
+                    "id": "0",
+                    "answer": "The <body> section"
+                },
+                {
+                    "id": "1",
+                    "answer": "Both the <head> and the <body> section are correct"
+                },
+                {
+                    "id": "2",
+                    "answer": "The head section"
+                }
+            ],
+            "correct": "0"
+        },
+        {
+            "id": "5",
+            "title": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+            "answers": [{
+                    "id": "0",
+                    "answer": "<script href=\"xxx.js\">"
+                },
+                {
+                    "id": "1",
+                    "answer": "<script name=\"xxx.js\">"
+                },
+                {
+                    "id": "2",
+                    "answer": "<script src=\"xxx.js\">"
+                }
+            ],
+            "correct": "2"
+        }
+    ]
+}
