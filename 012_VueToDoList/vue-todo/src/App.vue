@@ -48,7 +48,19 @@ export default {
 		return {
 			todos: todos
 		}
-	}
+	},
+	methods: {
+			createTodo: function (todo) {
+				let todoObject = {
+					id: Math.floor(Math.random() * 10000000),
+					name: todo,
+					done: false
+				}
+				this.todos.push(todoObject);
+			},
+			removeTodo: function (id) {
+				this.todos = this.todos.filter(todo => todo.id != id);
+			}
 }
 
 </script>

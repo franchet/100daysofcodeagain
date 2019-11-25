@@ -12,7 +12,12 @@
 <script>
 export default {
     name: "Todos",
-    props: ["todos"]
+    props: ["todos"],
+    methods: {
+			removeTodo: function (id) {
+				this.$emit("removeTodo", id);
+			}
+		}
 }
 </script>
 
@@ -24,9 +29,15 @@ export default {
         flex-wrap: wrap;
 
         .todo {
-            width: 24%;            margin: 15px;
+            width: 24%;
+            margin: 15px;
             padding: 15px;
-            background: #fff
+            background: #fff;
+
+            display: flex;
+			label {
+				flex: 1;
+			}
         }
     }
 

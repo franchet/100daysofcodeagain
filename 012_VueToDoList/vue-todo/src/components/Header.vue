@@ -8,7 +8,18 @@
 
 <script>
 export default {
-    name: "Header"
+    name: "Header",
+    data: function () {
+			return {
+				todoValue: ""
+			}
+		},
+		methods: {
+			createTodo: function () {
+				this.$emit('createTodo', this.todoValue);
+				this.todoValue = "";
+			}
+		}
 }
 </script>
 
